@@ -12,6 +12,3 @@ def get_connection():
     except sql.Error as err:
         print("❌ Connection error:", err)
         return None
-    finally:
-        if 'connection' in locals() and connection.is_connected():
-            connection.close()
