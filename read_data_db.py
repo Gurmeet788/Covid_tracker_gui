@@ -4,4 +4,4 @@ def read_data(quary,con):
         data = pd.read_sql_query(quary,con)
         return data
     except Exception as e:
-        print("conot read the data")
+        print("conot read the data",e)
