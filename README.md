@@ -10,14 +10,14 @@ A desktop application to fetch, store, and visualize COVID-19 data using Python.
 - 🗃️ Insert country-wise data into a MySQL database
 - 📊 Visualize COVID-19 trends from stored data (not directly from API)
 - 💻 Simple and intuitive Tkinter GUI
-- 🖼️ Optional background image support for GUI
+- 🖼️ Background image support for GUI
 - ⚠️ Error handling with user-friendly messageboxes
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python 3.x
+- **Language**: Python 
 - **GUI**: Tkinter
 - **Database**: MySQL (via `mysql-connector-python` or `SQLAlchemy`)
 - **Visualization**: Matplotlib
