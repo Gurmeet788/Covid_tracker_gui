@@ -43,8 +43,8 @@ country['values'] = (
     "Argentina",
     "Spain"
 )
-country.pack(pady = 10)
-country.current()
+country.pack(pady = 20)
+country.current() #.current(index) Sets the default selected item (by index) in the dropdown.
 
 def current_country():
     country_covid_data(select_country.get())

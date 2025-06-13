@@ -2,7 +2,9 @@ import requests as req
 import pandas as pd
 from tkinter import messagebox
 from insert_db import insert_data
+
 def country_covid_data(country):
+    
     if country == "Select an option":
          messagebox.showwarning("warning",str("Please Select country first"))
     else:

@@ -3,6 +3,7 @@ import sqlalchemy
 import matplotlib.pyplot as plt
 import pandas as pd
 from tkinter import messagebox
+
 def visualization(country):
     try:
         engine = sqlalchemy.create_engine("mysql+pymysql://root:root@localhost/covid_tracker")
