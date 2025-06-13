@@ -70,6 +70,9 @@ python main.py
 ![image](https://github.com/user-attachments/assets/955a9164-1389-4802-a82c-75ee77803aaa)
 
 **🧠 Usage Tips**
+
+- Select the country
+  
 - Use the "Fetch Data" button to get COVID-19 stats and insert them into MySQL.
 
 - Use the "Visualize" feature to display a graph from the stored data.
